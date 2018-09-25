@@ -1,9 +1,5 @@
 <p align="center"> Bole </p>
 
-<p align="center">
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-
 
 - Note: Dsc Leads should check <a href="https://github.com/DSCLEADSAfrica/bole/blob/master/ProjectReadMe.md"> ProjectReadMe </a>
 
