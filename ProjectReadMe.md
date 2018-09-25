@@ -1,4 +1,4 @@
-## Staate of Development
+## State of Development
 
 A number of people identified as members of the frontend team where asked to come up with Wireframes / mockups of how the site should function. 
 
@@ -24,6 +24,33 @@ The Backend shall be fully involved in the development of all things back-end, i
 
 The Frontend team just like their name shall be fully involved with all things front-end, making use of existing frameworks as they create the look and feel of the site making use of Dummy data until completion of backend Apis by backend team.
 
+
+
+## Installation;
+
+Follow the Laravel installation guide, you can follow this one.
+
+Once installed on your local host, you can be able to contribute.
+
+Here is what your database should look like;
+
+
+![](https://github.com/RayOkaah/bole/blob/master/boleProjectResources/boleDatabaseshot.png?raw=true)
+
+
+
+And heres what yor home page should look like;
+
+
+
+
+![](https://github.com/RayOkaah/bole/blob/master/boleProjectResources/welcomescreen.png?raw=true)
+
+
+
+
+## Current State of Development
+
 The process is iterative and highly collaborative, as any body's input can influence the direction of the project during the development, so inputs and ideas are highly welcomed.
 
 As a DSC lead, please associate with a team and start hacking away. 
@@ -36,9 +63,9 @@ Completed
 - Creation of Models
 - Definition of Models relationships
 - User Auth
+- Add yours here
+- And here 
+- And here lol I should just write a function that does here++
 
-
-
-
-
+:heart:
 
