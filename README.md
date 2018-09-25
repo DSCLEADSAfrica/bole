@@ -4,7 +4,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+- Note: Dsc Leads should check <a href="https://github.com/DSCLEADSAfrica/bole/blob/master/ProjectReadMe.md"> ProjectReadMe </a>
+
+![](https://github.com/DSCLEADSAfrica/bole/blob/master/boleProjectResources/boleHomepage.jpeg)
+
+
+
 ## About Bole
+
 
 In Africa, we usually have small markets and major markets usually named after their community eg; Mile 1 market, Mile 3 market, Balogun market etc, where petty traders sell their goods, and customers go to buy things in small quantities, usually foodstuffs.
 
@@ -51,3 +59,6 @@ We will be building a directory content management system suited for this rural 
 - Improved Relationship between rural traders and consumers.
 
 - Thanks.
+
+<p></p>
+
