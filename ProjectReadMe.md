@@ -28,7 +28,9 @@ The Frontend team just like their name shall be fully involved with all things f
 
 ## Installation;
 
-Follow the Laravel installation guide, you can follow this one.
+Follow the Laravel installation guide, you can follow <a href="https://gist.github.com/hootlex/da59b91c628a6688ceb1"> this one. </a>
+<p>It shows you how to Install Larevel Project from Github to your local machine.</p>
+ 
 
 Once installed on your local host, you can be able to contribute.
 
