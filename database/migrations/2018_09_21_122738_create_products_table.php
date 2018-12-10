@@ -17,11 +17,12 @@ class CreateProductsTable extends Migration
             $table->string('id', 36);
             $table->string('title');
             $table->mediumText('description');
-            $table->integer('ownerId');
+            $table->integer('user_id');
             $table->integer('minimumPrice');
             $table->timestamps();
 
 	        $table->primary('id');
+	        $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 
