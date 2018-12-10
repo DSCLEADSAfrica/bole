@@ -14,11 +14,14 @@ class CreatePricesTable extends Migration
     public function up()
     {
         Schema::create('prices', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('productId');
+            $table->string('id', 36);
+            $table->integer('product_id');
             $table->integer('value');
             $table->string('perQuantity');
             $table->timestamps();
+
+	        $table->primary('id');
+	        $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
         });
     }
 
