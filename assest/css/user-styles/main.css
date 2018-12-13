@@ -1,0 +1,32 @@
+/* login */
+.background-image{
+    /* background-image: url(../../img/dsclogo.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover */
+    background-color: darkgrey;
+}
+#login{
+    margin-top: 20%;
+    
+}
+#login-box{
+    box-shadow: 1 2 3 4px black;
+}
+/* signup */
+#slide-content{
+    /* background: url("../../img/market-signup.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 620px; */
+    /* background-color: black; */
+}
+.get-started-btn{
+border: 1px solid #f2f2f2;
+padding: 10px 20px;
+font-size: 12px;
+font-weight: 600;
+color: #000;
+margin-left: 20px;
+border-radius: 50px;
+background-color: whitesmoke;
+}
