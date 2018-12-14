@@ -37,13 +37,13 @@
   margin: 2em;
 }
 
-/* login */
-
 .title {
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
 }
+
+/* login */
 
 /* .background-image{
   background-image: url(../../img/dsclogo.jpg);
