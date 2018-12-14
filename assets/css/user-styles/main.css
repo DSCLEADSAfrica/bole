@@ -45,20 +45,23 @@
   text-transform: uppercase;
 }
 
-.background-image{
-  /* background-image: url(../../img/dsclogo.jpg);
+/* .background-image{
+  background-image: url(../../img/dsclogo.jpg);
   background-repeat: no-repeat; 
   background-position: center;
-  background-size: cover */
+  background-size: cover;
   background-color: darkgrey;
-}
+} */
+
 #login{
   margin-top: 10%;
     
 }
+
 #login-box{
   box-shadow: 1 2 3 4px black;
 }
+
 /* signup */
 
 /* #slide-content{
