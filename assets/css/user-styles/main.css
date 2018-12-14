@@ -21,6 +21,18 @@
   text-transform: uppercase;
 }
 
+.info-green {
+  color: #f0f0f0;
+  padding: 1em 3em;
+  background-color: #122620;
+}
+
+.info-title-green {
+  color: #ffcc53;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 #footer {
   margin: 2em;
 }
