@@ -1,0 +1,89 @@
+/* main styles */
+
+#logo {
+  text-align: center;
+  margin: 2em 0 3em 0;
+}
+
+.middle {
+  text-align: center;
+}
+
+.info-yellow {
+  color: #f0f0f0;
+  padding: 1em 3em;
+  background-color: #ffcc53;
+}
+
+.info-title-yellow {
+  color: #122620;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.info-green {
+  color: #f0f0f0;
+  padding: 1em 3em;
+  background-color: #122620;
+}
+
+.info-title-green {
+  color: #ffcc53;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#footer {
+  margin: 2em;
+}
+
+/* login */
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* .background-image{
+  background-image: url(../../img/dsclogo.jpg);
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+  background-color: darkgrey;
+} */
+
+#login{
+  margin-top: 10%;
+    
+}
+
+#login-box{
+  box-shadow: 1 2 3 4px black;
+}
+
+/* signup */
+
+/* #slide-content{
+  background: url("../../img/market-signup.jpeg") no-repeat center center;
+  background-size: cover;
+  height: 620px; 
+  background-color: black;
+} */
+
+#already-signed {
+  color: #122620;
+  padding: 1em 2em;
+  background-color: #ffcc53;
+}
+
+.get-started-btn{
+  border: 1px solid #f2f2f2;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #000;
+  margin-left: 20px;
+  border-radius: 50px;
+  background-color: whitesmoke;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../favicon/favicon-16x16.png">
+  <link rel="manifest" href="../../favicon/site.webmanifest">
+  <link rel="mask-icon" href="../../favicon/safari-pinned-tab.svg" color="#4b9960">
+  <link rel="shortcut icon" href="../../favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-config" content="../../favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="../../css/user-styles/main.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Login - Bole | the pan-african marketplace</title>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../../../index.html">
+      <img src="../../img/bole_FAVICON.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Bole
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../../../index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sellers</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Categories</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Profile</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li>
+          <a class="nav-link" href="./signUp.html">Sign Up</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Sign Out</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Form -->
+
+  <div class="container-fluid" >  
+    <div class="row">
+      <div class="col">
+        <img id="logo" class="img-fluid rounded mx-auto d-block rounded-circle" src="../../img/bole_LOGO.png" alt="Bole" title="Bole | the pan-african marketplace" style="width: 140px; height: auto;" />
+      </div>
+    </div>  
+
+    <div class="container-fluid page-body-wrapper full-page-wrapper">
+      <div class="content-wrapper d-flex align-items-center auth auth-bg-1 theme-one" id="login-box">
+      <div class="row w-100 mx-auto" >
+        <div class="col-lg-4 mx-auto" >
+
+          <h3 class="mr title">Login</h3>
+
+          <div class="auto-form-wrapper" id="login">
+            <form action="#">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Name">
+                  </div>
+                </div>
+
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Password">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <a class="btn btn-primary submit-btn btn-block" href="../user-pages/home.html">Login</a>
+              </div>
+
+              <div class="form-group d-flex justify-content-between">
+                <div class="form-check form-check-flat mt-0">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" checked>
+                      Keep me signed in
+                  </label>
+                </div>
+                <a href="../user-pages/forgotPass.html" class="text-small forgot-password text-black">Forgot Password</a>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-block g-login"><img class="mr-3" src="../../img/icon-google.svg" alt="">Log in with Google</button>
+              </div>
+              <div class="text-block text-center my-3">
+                <span class="text-small font-weight-semibold">Not a member ?</span>
+                  <a href="../user-pages/signUp.html" class="text-black text-small">Create new account</a>
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+    <!-- content-wrapper ends -->
+    </div>
+  <!-- page-body-wrapper ends -->
+  </div>
+
+  <!-- Footer -->
+
+  <h6 id="footer" class="middle">Bole &copy; 2018</h6>
+  
+</body>
+<script src="/assest/js/main.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- FontAwesome CSS & JS -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+<script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js" integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ" crossorigin="anonymous"></script>
+
+</html>
