@@ -71,6 +71,12 @@
   background-color: black;
 } */
 
+#already-signed {
+  color: #122620;
+  padding: 1em 2em;
+  background-color: #ffcc53;
+}
+
 .get-started-btn{
   border: 1px solid #f2f2f2;
   padding: 10px 20px;
