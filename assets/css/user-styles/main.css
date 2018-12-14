@@ -1,4 +1,4 @@
-/* main styles */
+/* MAIN STYLES */
 
 #logo {
   text-align: center;
@@ -41,9 +41,27 @@
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
+  margin: 1em;
 }
 
-/* login */
+.icon {
+  color: #ffcc53;
+}
+
+/* PROFILE */
+
+#profile-main {
+  margin: 2em;
+}
+
+.details {
+  color: #122620;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #ffcc53;
+}
+
+/* LOGIN */
 
 /* .background-image{
   background-image: url(../../img/dsclogo.jpg);
@@ -62,7 +80,7 @@
   box-shadow: 1 2 3 4px black;
 }
 
-/* signup */
+/* SIGNUP */
 
 /* #slide-content{
   background: url("../../img/market-signup.jpeg") no-repeat center center;
