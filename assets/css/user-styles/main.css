@@ -5,6 +5,10 @@
   border-radius: 50%;
 }
 
+.middle {
+  text-align: center
+}
+
 /* login */
 .background-image{
   /* background-image: url(../../img/dsclogo.jpg);
