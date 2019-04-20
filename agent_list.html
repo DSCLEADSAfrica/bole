@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#4b9960">
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Description -->
+  <meta name="description" content="Bole | the pan-african marketplace">
+  <title>Agent List | Bole the pan-african marketplace</title>
+
+<!-- Bootstrap -->
+<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,400,500,700" rel="stylesheet">
+
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="lib/animate.css" rel="stylesheet">
+<link href="lib/selectric/selectric.css" rel="stylesheet">
+<link href="lib/aos/aos.css" rel="stylesheet">
+<link href="lib/Magnific-Popup/magnific-popup.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="lib/jquery-3.2.1.min.js"></script>
+<script src="lib/popper.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/selectric/jquery.selectric.js"></script>
+<script src="lib/aos/aos.js"></script>
+<script src="lib/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+<script src="lib/sticky-sidebar/ResizeSensor.min.js"></script>
+<script src="lib/sticky-sidebar/theia-sticky-sidebar.min.js"></script>
+<script src="lib/lib.js"></script>
+
+</head>
+<body>
+<div id="main">
+<nav class="navbar navbar-expand-lg navbar-dark" id="menu">
+  <div class="container">
+  <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="60" alt="icon"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-content" aria-controls="menu-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="menu-content">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link " href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Home <span class="sr-only">(current)</span>
+        </a>
+        
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Listings
+        </a>
+        <div class="dropdown-menu">
+            <a href="property_listing.html" class="dropdown-item">List View</a>
+            <a href="property_grid.html" class="dropdown-item">Grid View</a>
+            
+        </div>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Agents
+        </a>
+        <div class="dropdown-menu">
+            <a href="agent_list.html" class="dropdown-item">Agent List</a>
+            <a href="agent.html" class="dropdown-item">Agent Profile</a>
+        </div>
+      </li>
+      
+      
+      
+    </ul>
+    
+    <ul class="navbar-nav ml-auto">
+      
+      
+      <li class="nav-item dropdown user-account">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="user-image" style="background-image:url(' img/demo/profileOG.jpg');"></span> Hi, OG
+        </a>
+        <div class="dropdown-menu">
+            <a href="my_profile.html" class="dropdown-item">My Profile</a>
+            <a href="my_password.html" class="dropdown-item">Change Password</a>
+            <a href="my_notifications.html" class="dropdown-item">Notifications</a>
+            <a href="my_membership.html" class="dropdown-item">Membership</a>
+            <a href="my_payments.html" class="dropdown-item">Payments</a>
+            <a href="my_account.html" class="dropdown-item">Account</a>
+        </div>
+      </li>
+      <li class="nav-item"><a class="nav-link nav-btn" href="my_listing_add.html"><span><i class="fa fa-plus" aria-hidden="true"></i> Add listing</span></a></li>
+    </ul>
+    
+  </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col col-md-10">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Agents</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+</div>
+<div id="content">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-12 col-xl-10">
+        <div class="row has-sidebar">
+          <div class="col-md-5 col-lg-4 col-xl-4 col-sidebar">
+            <div id="sidebar" class="sidebar-left">
+              <div class="sidebar_inner">
+                <div class="card shadow agent-search">
+                  <h3 class="subheadline mt0">Search Agents</h3>
+                  <form>
+                    <div class="form-group">
+                      <label for="location">Enter Location, landmark..</label>
+                      <input type="text" class="form-control" id="location"  placeholder="Enter Location, landmark..">
+                    </div>
+                    <div class="form-group">
+                      <label for="type">Property Type</label>
+                      <select class="form-control ui-select" id="type">
+                        <option>Please Select</option>
+                        <option>Flat</option>
+                        <option>Villa</option>
+                        <option>Office Space</option>
+                        <option>Showroom</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="dealing">Dealing in</label>
+                      <select class="form-control ui-select" id="dealing">
+                        <option>Please Select</option>
+                        <option>Rent</option>
+                        <option>Sale</option>
+                        <option>Lease</option>
+                      </select>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-block btn-primary">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 col-lg-8 col-xl-8">
+            <div class="page-header bordered mt0">
+              <h1>Agents <small>Save the hassle. Choose from over 20,000+ Agents</small></h1>
+            </div>
+            <div class="sorting">
+              <div class="row justify-content-between">
+              <div class="col-sm-5 col-md-5 col-lg-4 col-xl-4">
+              <div class="form-group">
+                  <select class="form-control ui-select">
+                    <option selected="selected">Most recent</option>
+                    <option>Most reduced</option>
+                    <option>Most popular</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-5 col-lg-4 col-xl-3">
+              <div class="btn-group float-right" role="group"> <a href="property_grid.html" class="btn btn-light"><i class="fa fa-th"></i></a> <a href="property_listing.html" class="btn btn-light active"><i class="fa fa-bars"></i></a> </div>
+              </div>
+              </div>                
+            </div>
+            <div class="clearfix"></div>
+            <div class="item-listing list">
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="item-image"> <img src="img/demo/profile.jpg" class="img-fluid" alt=""> </div>
+                  </div>
+                  <div class="col-md-9"> <a href="agent.html" class="btn btn-primary float-right">View Profile</a>
+                    <h3 class="item-title"><a href="agent.html">John Doe - John Estate</a></h3>
+                    <div class="item-location"><i class="fa fa-map-marker"></i> Kirkstone Road, Middlesbrough TS3</div>
+                    <div class="item-description">We have a profoundly knowledgeable and dedicated team who are well connected with this market and are
+                      extremely capable at matching tenants to properties.</div>
+                    <div class="item-actions"> <a href="tel:02080226348"><i class="fa fa-phone"></i> 020 8022 6348</a> <a href="agent.html"><i class="fa fa-envelope-o"></i> Contact Agent</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="item-image"> <img src="img/demo/profile2.jpg" class="img-fluid" alt=""> </div>
+                  </div>
+                  <div class="col-md-9"> <a href="agent.html" class="btn btn-primary float-right">View Profile</a>
+                    <h3 class="item-title"><a href="agent.html">Jane Doe - Jane Estate</a></h3>
+                    <div class="item-location"><i class="fa fa-map-marker"></i> Kirkstone Road, Middlesbrough TS3</div>
+                    <div class="item-description">We have a profoundly knowledgeable and dedicated team who are well connected with this market and are
+                      extremely capable at matching tenants to properties.</div>
+                    <div class="item-actions"> <a href="tel:02080226348"><i class="fa fa-phone"></i> 020 8022 6348</a> <a href="agent.html"><i class="fa fa-envelope-o"></i> Contact Agent</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="item-image"> <img src="img/demo/profile3.jpg" class="img-fluid" alt=""> </div>
+                  </div>
+                  <div class="col-md-9"> <a href="agent.html" class="btn btn-primary float-right">View Profile</a>
+                    <h3 class="item-title"><a href="agent.html">John Doe - John Estate</a></h3>
+                    <div class="item-location"><i class="fa fa-map-marker"></i> Kirkstone Road, Middlesbrough TS3</div>
+                    <div class="item-description">We have a profoundly knowledgeable and dedicated team who are well connected with this market and are
+                      extremely capable at matching tenants to properties.</div>
+                    <div class="item-actions"> <a href="tel:02080226348"><i class="fa fa-phone"></i> 020 8022 6348</a> <a href="agent.html"><i class="fa fa-envelope-o"></i> Contact Agent</a> </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="item-image"> <img src="img/profile-placeholder.jpg" class="img-fluid" alt=""> </div>
+                  </div>
+                  <div class="col-md-9"> <a href="agent.html" class="btn btn-primary float-right">View Profile</a>
+                    <h3 class="item-title"><a href="agent.html">John Doe - John Estate</a></h3>
+                    <div class="item-location"><i class="fa fa-map-marker"></i> Kirkstone Road, Middlesbrough TS3</div>
+                    <div class="item-description">We have a profoundly knowledgeable and dedicated team who are well connected with this market and are
+                      extremely capable at matching tenants to properties.</div>
+                    <div class="item-actions"> <a href="tel:02080226348"><i class="fa fa-phone"></i> 020 8022 6348</a> <a href="agent.html"><i class="fa fa-envelope-o"></i> Contact Agent</a> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p><a href="#" class="btn btn-lg btn-link btn-block">Load More <i class="fa fa-caret-down"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<button class="btn btn-primary btn-circle" id="to-top"><i class="fa fa-angle-up"></i></button>
+<footer id="footer" class="bg-light footer-light">
+<div class="container container-1000">
+<div class="row">
+<div class="col-lg-3">
+<p><img src="img/logo.png" height="80" alt="icon" /></p>
+<address class="mb-3">
+            <strong>Twitter, Inc.</strong><br>
+            1355 Market Street, Suite 900<br>
+            San Francisco, CA 94103<br>
+            <abbr title="Phone">P:</abbr> (123) 456-7890
+            </address>
+<div class="footer-social mb-4"><a href="#" class="ml-2 mr-2"><span class="fa fa-twitter"></span></a> <a href="#" class="ml-2 mr-2"><span class="fa fa-facebook"></span></a> <a href="#" class="ml-2 mr-2"><span class="fa fa-instagram"></span></a></div>
+</div>
+<div class="col-lg-2 col-sm-4">
+<div class="footer-links">
+<ul class="list-unstyled">
+<li class="list-title"><a href="#">About</a></li>
+<li><a href="#">Company</a></li>
+<li><a href="#">Community</a></li>
+<li><a href="#">Carrers</a></li>
+<li><a href="#">Press</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-sm-4">
+<div class="footer-links">
+<ul class="list-unstyled">
+<li class="list-title"><a href="#">Links</a></li>
+<li><a href="#">For Rent</a></li>
+<li><a href="#">For Sale</a></li>
+<li><a href="#">Commercial</a></li>
+<li><a href="#">Agents</a></li>
+<li><a href="#">Property Guides</a></li>
+<li><a href="#">Jobs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-sm-4">
+<div class="footer-links">
+<ul class="list-unstyled">
+<li class="list-title"><a href="#">Help</a></li>
+<li><a href="#">Payments</a></li>
+<li><a href="#">Shipping</a></li>
+<li><a href="#">Cancellation</a></li>
+<li><a href="#">FAQ</a></li>
+<li><a href="#">Report</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-3">
+<div class="text-lg-right ml-lg-2">
+<form>
+<div class="list-title">Subscribe</div>
+<div class="input-group input-group-lg">
+  <input type="text" name="email" class="form-control form-control-lg subscribe-input" placeholder="Email">
+<div class="input-group-append ml-0">
+    <button class="btn subscribe-button" type="button"><i class="fa fa-envelope"></i></button>
+  </div>
+</div>
+</form>
+<div class="footer-payments"><span class="fa fa-cc-visa"></span> <span class="fa fa-cc-mastercard"></span> <span class="fa fa-cc-amex"></span> </div>
+</div>
+</div>
+
+</div>
+<div class="footer-credits d-lg-flex justify-content-lg-between align-items-center">
+
+
+<div>© 2019 DSCSSA All Rights Reserved</div>
+</div>
+</div>
+</footer>
+</div>
+</body>
+
+</html>
